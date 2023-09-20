@@ -14,5 +14,5 @@ def about (request):
 
 def poke_index (request):
     return render(request, 'pokemon/index.html', {
-        'pokemon': pokemon
+        'pokemons': pokemon
     })
